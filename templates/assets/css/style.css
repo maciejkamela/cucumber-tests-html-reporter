@@ -207,7 +207,7 @@ header {
   .step.passed {
     background-color: #579533; }
   .step.skipped {
-    background-color: #249CFF; }
+    background-color: #696969; }
   .step.failed {
     background-color: #A53D39;
     cursor: pointer; }
@@ -276,7 +276,7 @@ header {
   line-height: 35px;
   color: #FFF; }
   .scenario.skipped {
-    background-color: #249CFF; }
+    background-color: #696969; }
   .scenario.pending {
     background-color: #fcdfc2; }
   .scenario.undefined {
