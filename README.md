@@ -26,7 +26,7 @@ In your project's Gruntfile, add a section named `cucumber-tests-html-reporter` 
 
 ```js
 grunt.initConfig({
-  protractor_cucumber_html_report: {
+  cucumber_tests_html_reporter: {
     options: {
       // Task-specific options go here.
     },

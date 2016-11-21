@@ -1,9 +1,10 @@
 {
-  "name": "grunt-protractor-cucumber-html-report",
-  "version": "0.1.0",
-  "homepage": "https://github.com/robhil/grunt-protractor-cucumber-html-report",
+  "name": "cucumber-tests-html-reporter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/maciejkamela/cucumber-tests-html-reporter",
   "authors": [
-    "Maciej Kamela <maciej.kamela@pearson.com>"
+    "Maciej Kamela <maciej.kamela@wp.pl>",
+    "Robert Hilscher <robert.hilscher@pearson.com>"
   ],
   "moduleType": [
     "globals"

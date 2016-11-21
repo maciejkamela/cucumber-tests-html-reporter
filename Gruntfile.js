@@ -1,8 +1,8 @@
 /*
- * grunt-protractor-cucumber-html-report
- * https://github.com/roberthilscher/grunt-protractor-cucumber-html-report
+ * cucumber-tests-html-reporter
+ * https://github.com/maciejkamela/cucumber-tests-html-reporter
  *
- * Copyright (c) 2015 Hilscher, Robert
+ * Copyright (c) 2015 Hilscher, Robert, Kamela, Maciej
  * Licensed under the MIT license.
  */
 
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    'protractor-cucumber-html-report': {
+    'cucumber-tests-html-reporter': {
       default_options: {
         options: {
           dest: 'tmp',
@@ -76,8 +76,8 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'sass', 'protractor-cucumber-html-report', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'sass', 'cucumber-tests-html-reporter', 'nodeunit']);
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'clean', 'sass', 'protractor-cucumber-html-report']);
+  grunt.registerTask('default', ['jshint', 'clean', 'sass', 'cucumber-tests-html-reporter']);
 };

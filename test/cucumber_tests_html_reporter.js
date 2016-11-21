@@ -3,7 +3,7 @@
 var grunt = require('grunt');
 
 
-exports.protractor_cucumber_html_report = {
+exports.cucumber_tests_html_reporter = {
   setUp: function(done) {
     // setup here if necessary
     done();

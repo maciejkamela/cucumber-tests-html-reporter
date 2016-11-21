@@ -1,8 +1,8 @@
 /*
- * grunt-protractor-cucumber-html-report
- * https://github.com/roberthilscher/grunt-protractor-cucumber-html-report
+ * cucumber-tests-html-reporter
+ * https://github.com/maciejkamela/cucumber-tests-html-reporter
  *
- * Copyright (c) 2015 Hilscher, Robert
+ * Copyright (c) 2015 Hilscher, Robert, Kamela, Maciej
  * Licensed under the MIT license.
  */
 
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       path = require('path'),
       fs   = require('fs');
 
-  grunt.registerMultiTask('protractor-cucumber-html-report', 'Generate html report from JSON file returned by cucumber js json formatter', function() {
+  grunt.registerMultiTask('cucumber-tests-html-reporter', 'Generate html report from JSON file returned by cucumber js json formatter', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var currentDir = path.dirname(fs.realpathSync(__filename)),
       options = this.options({
