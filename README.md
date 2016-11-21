@@ -83,3 +83,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 ###### 0.0.1 Initial version.
 ###### 0.0.2 README tweaks.
+###### 0.0.3 Register task with a new name.
