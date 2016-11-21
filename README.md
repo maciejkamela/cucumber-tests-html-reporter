@@ -17,9 +17,11 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('cucumber-tests-html-reporter');
 ```
 
-## The "cucumber-tests-html-reporter" task
+## The "cucumber-tests-html-reporter"
 
 ### Overview
+**This is the same html reporter which can be found _[here](https://www.npmjs.com/package/grunt-protractor-cucumber-html-report "grunt-protractor-cucumber-html-report")_ but with a new look.**
+
 In your project's Gruntfile, add a section named `cucumber-tests-html-reporter` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -79,11 +81,4 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-##### 0.3.0 New report's design. Displaying table for tests' data. Fixing broken chart presentation.
-##### 0.2.5 Adding steps' duration and overall time elapsed for running tests.
-##### 0.2.4 Adding css style for passed header when all scenarios have passed.
-##### 0.2.3 Adding screenshots in report.
-##### 0.2.2 Changes in filtering steps. Small changes in css.
-##### 0.2.1 Creating output directory when it doesn't exist.
-##### 0.2.0 Generating reports from more than one browser. 
-##### 0.0.x Creating report and grunt task. Bug fixes for current versions.
+###### 0.0.1 Initial version.
