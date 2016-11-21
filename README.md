@@ -1,4 +1,4 @@
-# grunt-protractor-cucumber-html-report
+# cucumber-tests-html-reporter
 
 > Generate html report from JSON file returned by cucumber js json formatter
 
@@ -8,19 +8,19 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-protractor-cucumber-html-report --save-dev
+npm install cucumber-tests-html-reporter --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-protractor-cucumber-html-report');
+grunt.loadNpmTasks('cucumber-tests-html-reporter');
 ```
 
-## The "protractor-cucumber-html-report" task
+## The "cucumber-tests-html-reporter" task
 
 ### Overview
-In your project's Gruntfile, add a section named `protractor-cucumber-html-report` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `cucumber-tests-html-reporter` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
@@ -64,7 +64,7 @@ A string value that is used to do something else with whatever else.
 
 ```js
 grunt.initConfig({
-  'protractor-cucumber-html-report': {
+  'cucumber-tests-html-reporter': {
     options: {
       dest: '.',
       output: 'report.html',

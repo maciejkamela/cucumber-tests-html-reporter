@@ -37,7 +37,7 @@ module.exports = function(grunt) {
           dest: 'tmp',
           output: 'report.html',
           testJSONDirectory: 'assets',
-          reportTitle: "Test report generated via automatic tests"
+          reportTitle: "Cucumber tests output"
         }
       }
     },
